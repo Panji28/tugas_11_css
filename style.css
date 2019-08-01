@@ -1,0 +1,75 @@
+ul{
+    background-color: black;
+    width: 130%;
+    height: 50px;
+    word-spacing: 70px; /*bisa memakai rem atau px terserah apa aja   */ 
+    position: relative;
+}
+
+li{
+ display: inline-block;
+}
+
+a{
+ position: absolute;
+ float: left;
+ 
+ text-decoration: none;
+ color: white;
+}
+
+.latar{
+    background-color: white;
+
+}
+.ukuran{
+    font-size: 19px;
+}
+
+.pengaturan{
+    height: 240px;
+    text-align: justify;
+    column-count: 4;
+    column-rule: 2px double black;
+    column-width: 300px;
+    column-gap: 12px;
+    column-fill: balance;
+    
+}
+
+.span{
+    column-span: all;
+}
+
+.pengaturan3{
+    height: 240px;
+    text-align: justify;
+    column-count: 4;
+    column-rule: 2px solid black;
+    column-width: 300px;
+    column-gap: 12px;
+    column-fill: balance;
+    
+}
+
+.pengaturan2{
+    height: 240px;
+    text-align: justify;
+    column-count: 4;
+    column-rule: 2px solid black;
+    column-width: 300px;
+    column-gap: 12px;
+    column-fill: balance;
+}
+
+.dasar{
+    background-color: black;
+    width: 133%;
+    height: 50px;
+    color: white; 
+    text-align: center;
+    
+}
+
+
+
